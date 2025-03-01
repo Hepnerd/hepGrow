@@ -6,16 +6,13 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/main"
-    tools:context=".MainActivity">
+    tools:context=".MainActivity"
+    android:backgroundTint="#201300">
 
-    <ImageView
-        android:id="@+id/imageView"
-        android:layout_width="300dp"
-        android:layout_height="150dp"
-        android:layout_marginStart="88dp"
-        android:layout_marginEnd="88dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/logo" />
+    <TextView
+        android:layout_height="75dp"
+        android:layout_width="75dp"
+        android:background="@drawable/checkmarkgreen"
+        />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
